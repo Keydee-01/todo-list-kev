@@ -1,0 +1,178 @@
+body {
+    background-color: #dde3f1;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%234f2e83' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+aside {
+    background-color: rgb(55, 116, 187);
+    box-sizing: border-box;
+    width: 20vw;
+    margin: 0 5px 0 0;
+}
+
+
+main {
+    background-color: rgb(142, 187, 238);
+    box-sizing: border-box;
+    width: 60vw;
+}
+
+
+aside,
+main {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+.main-div {
+    font-family: 'Montserrat';
+    display: flex;
+    box-sizing: border-box;
+    min-height: 800px; 
+    width: auto; 
+    min-width: 100%; 
+    margin: 20px 100px 0 100px;
+    font-family: 'Montserrat';
+    overflow: auto;
+    flex-wrap: wrap; 
+}
+
+
+.todo {
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.new {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+input {
+    width: 800px;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid blue;
+}
+
+
+p {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.add-button {
+    width: 90px;
+    height: 35px;
+    background-color: rgb(55, 116, 187);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+.add-button:hover {
+    background-color: rgb(111, 143, 184);
+}
+
+
+.add-button:active {
+    background-color: rgb(167, 195, 231);
+}
+
+
+.tasklists {
+    display: flex;
+    border: solid;
+    border-width: 1px;
+    width: 800px;
+    height: 30px;
+    font-weight: 500;
+    padding: 0 10px 0 10px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    border-color: rgb(104, 104, 104);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: space-between;
+}
+.tasklists:hover {
+    background-color:  rgb(135, 154, 219);
+}
+
+
+.delete-button {
+    cursor: pointer;
+    background-color: red;
+    width: 70px;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.delete-button:hover {
+    background-color: rgb(158, 51, 51);
+}
+
+
+.delete-button:active {
+    background-color: rgb(221, 193, 193);
+}
+
+.x-button {
+    cursor: pointer;
+    background-color: rgb(123, 32, 32);
+    color: white;
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.x-button:hover {
+    background-color: rgb(219, 71, 71);
+    color: rgb(0, 0, 0);
+}
+
+.complete-button {
+    cursor: pointer;
+    background-color: rgb(31, 206, 89);
+    width: 80px;
+    height: 24px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+
+.complete-button:hover {
+    background-color: rgb(129, 180, 146);
+}
+
+
+.complete-button:active {
+    background-color: rgb(221, 193, 193);
+}
+
+.upper-form {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.new-task-word {
+    margin-top: 0;
+}
